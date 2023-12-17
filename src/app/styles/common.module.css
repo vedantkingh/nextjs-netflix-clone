@@ -6,10 +6,12 @@
 
 .movieSection{
     background-color: #fff!important;
-    color: black;
 }
 
 .container{
+    color: black;
+    font-size: xx-large;
+    font-weight: 700;
     max-width: 140rem;
     margin:0 auto;
     padding: 6rem 3rem;
@@ -47,7 +49,7 @@
 }
 
 .card{
-    max-width: 26rem;
+    max-width: min-content;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     border-radius: .8rem;
     background-color: #fff;
@@ -62,6 +64,7 @@
 
 .card_data{
     padding: 1.2rem;
+    font-size: 25;
 }
 
 .card_data h2{
@@ -72,6 +75,27 @@
     margin: 1rem 0 2.4rem 0;
     line-height: 1.6;
 }
+
+.fancyButton {
+    background-color: #fff; /* Green background color */
+    border: 1px solid black; /* Remove borders */
+    color: black; /* White text color */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 30px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+  }
+
+  .fancyButton:hover {
+    background-color: black; /* Darker red on hover */
+    /* border: 1px solid #fff; White border on hover */
+    color: #fff; /* White text color on hover */
+  }
 
 
 /*not found page styling */

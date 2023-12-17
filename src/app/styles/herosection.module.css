@@ -26,27 +26,6 @@
     align-items: flex-start;
 }
 
-.fancyButton {
-    background-color: #af4c4c; /* Green background color */
-    border: 1px solid black; /* Remove borders */
-    color: white; /* White text color */
-    padding: 15px 32px; /* Padding */
-    text-align: center; /* Center text */
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px; /* Font size */
-    margin: 4px 2px; /* Margin */
-    cursor: pointer; /* Cursor on hover */
-    border-radius: 30px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth transition on hover */
-  }
-
-  .fancyButton:hover {
-    background-color: #751a1a; /* Darker red on hover */
-    border: 1px solid #fff; /* White border on hover */
-    color: #fff; /* White text color on hover */
-  }
-
 .hero_content h1{
     text-transform:uppercase;
     font-size: 4.8rem;

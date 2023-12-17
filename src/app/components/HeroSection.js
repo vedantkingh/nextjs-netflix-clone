@@ -12,7 +12,7 @@ const HeroSection = ({title, imageUrl}) => {
                         <p>
                             Enjoy a collection of movies.
                         </p>
-                        <button className={herostyles.fancyButton}>
+                        <button className={styles.fancyButton}>
                             Explore Movies
                         </button>
                     </div>

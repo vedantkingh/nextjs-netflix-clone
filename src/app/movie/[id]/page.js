@@ -1,3 +1,4 @@
+import MovieCard from '@/app/components/MovieCard';
 import Link from 'next/link';
 import React from 'react';
 
@@ -14,11 +15,17 @@ const Movie = async () => {
 
   const res = await fetch(url, options);
   const data = await res.json();
+  const main_data = data.titles;
   console.log(data);
-  
+
   return (
       <>
-        <h1>I am a dynamic route</h1>
+        <h1>Series and Movies</h1>
+        {
+          main_data.map((curElem) => {
+            return <MovieCard key={curElem.id} {...curElem}/>
+          })
+        }
       </>
   );
 };

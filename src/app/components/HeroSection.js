@@ -10,7 +10,7 @@ const HeroSection = ({title, imageUrl}) => {
                     <div className={herostyles.hero_content}>
                         <h1>{title}</h1>
                         <p>
-                            From Mia Khalifa to Dani Daniels.
+                            Enjoy a collection of movies.
                         </p>
                         <button className={herostyles.fancyButton}>
                             Explore Movies

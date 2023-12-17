@@ -1,9 +1,10 @@
 import React from 'react';
+import HeroSection from '../components/HeroSection';
 
 const page = () => {
     return (
         <>
-            <h1>About us baby</h1>
+            <HeroSection title={"Our Story"} imageUrl={"/about1.svg"}/>
         </>
     );
 };

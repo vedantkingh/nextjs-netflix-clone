@@ -37,8 +37,14 @@
     font-size: 16px; /* Font size */
     margin: 4px 2px; /* Margin */
     cursor: pointer; /* Cursor on hover */
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 30px; /* Rounded corners */
     transition: background-color 0.3s; /* Smooth transition on hover */
+  }
+
+  .fancyButton:hover {
+    background-color: #751a1a; /* Darker red on hover */
+    border: 1px solid #fff; /* White border on hover */
+    color: #fff; /* White text color on hover */
   }
 
 .hero_content h1{
@@ -52,6 +58,7 @@
     font-weight: 300;
     letter-spacing: .05rem;
     line-height: 1.65;
+    font-size: 1.8rem;
     /*font-family: 'Mulish', sans-serif;*/
 }
 

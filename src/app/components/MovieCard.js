@@ -1,6 +1,7 @@
 
 
-const MovieCard = () => {
+const MovieCard = (curElem) => {
+    const { id, type, title, synopsis} = curElem.jawSummary
     return (
         <>
             

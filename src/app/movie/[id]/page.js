@@ -1,6 +1,7 @@
 import MovieCard from '@/app/components/MovieCard';
 import Link from 'next/link';
 import React from 'react';
+import styles from '@/app/styles/common.module.css'
 
 const Movie = async () => {
 
@@ -20,12 +21,16 @@ const Movie = async () => {
 
   return (
       <>
-        <h1>Series and Movies</h1>
-        {
-          main_data.map((curElem) => {
-            return <MovieCard key={curElem.id} {...curElem}/>
-          })
-        }
+        <section className={styles.movieSection}>
+          <div className={styles.container}>
+            <h1>Series and Movies</h1>
+            {
+              main_data.map((curElem) => {
+                return <MovieCard key={curElem.id} {...curElem}/>
+              })
+            }
+          </div>
+        </section>
       </>
   );
 };

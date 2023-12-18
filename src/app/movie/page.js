@@ -4,6 +4,7 @@ import styles from '@/app/styles/common.module.css'
 
 const Movie = async () => {
 
+  
   const url = process.env.RAPID_KEY;
   const options = {
     method: 'GET',

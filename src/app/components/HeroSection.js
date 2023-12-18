@@ -1,6 +1,7 @@
 import herostyles from "@/app/styles/herosection.module.css"
 import styles from "@/app/styles/common.module.css"
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroSection = ({title, imageUrl}) => {
     return (
@@ -12,9 +13,11 @@ const HeroSection = ({title, imageUrl}) => {
                         <p>
                             Enjoy a collection of movies.
                         </p>
-                        <button className={styles.fancyButton}>
-                            Explore Movies
-                        </button>
+                        <Link href='/movie'>
+                            <button className={styles.fancyButton}>
+                                Explore Movies
+                            </button>
+                        </Link>
                     </div>
                     <div href className={herostyles.hero_image}>
                             <Image src={imageUrl} alt='Watching Netflix' width={500} height={500}/>

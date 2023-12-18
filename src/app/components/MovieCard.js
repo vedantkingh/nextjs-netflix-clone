@@ -18,7 +18,7 @@ const MovieCard = (curElem) => {
                     <p>
                         {synopsis}
                     </p>
-                    <Link href={'/movie/${id}'}>
+                    <Link href={`/movie/${id}`}>
                         <button className={styles.fancyButton}>
                             Read More
                         </button>

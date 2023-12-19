@@ -89,6 +89,7 @@
     cursor: pointer; /* Cursor on hover */
     border-radius: 30px; /* Rounded corners */
     transition: background-color 0.3s; /* Smooth transition on hover */
+    font-size: x-large;
   }
 
   .fancyButton:hover {

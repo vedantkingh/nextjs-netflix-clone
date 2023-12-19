@@ -5,6 +5,7 @@
 .container{
     padding: 0 6rem;
     margin: 0 auto;
+    color: black;
     text-align: center;
 }
 
@@ -26,6 +27,7 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     background-color: #fff;
     color: black;
+    font-size: x-large;
 }
 
 .grid_card span {
@@ -64,6 +66,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: x-large;
 
 }
 

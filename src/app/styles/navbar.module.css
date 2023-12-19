@@ -6,8 +6,8 @@
     align-items: center;
     border: none;
     outline: none;
-    /*background-color: yellow;*/
-    /*background: linear-gradient(-45deg, #a8e48a, #1eb6d9, #f2d3f7);*/
+    background-color: #111111;
+    /* background: linear-gradient(-45deg, #a8e48a, #1eb6d9, #f2d3f7); */
     background-size: 400% 400%;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -44,7 +44,7 @@
 /*    color: #e50914;*/
 /*}*/
 
-.navbarItem a:before {
+/* .navbarItem a:before {
     content: "";
     position: absolute;
     top: 50%;
@@ -54,12 +54,24 @@
     color: white;
     background-color: #e50914;
     left: -100%;
+} */
+
+.navbarItem a:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #e50914;
+    transition: width 0.3s ease-in-out;
 }
 
 .navbarItem a:hover:before {
-    animation: coolNavLine .4s linear forwards;
+    width: 100%;
 }
 
+/* 
 @keyframes coolNavLine {
     0% {
         left: -100%;
@@ -74,7 +86,7 @@
         height: 100%;
         z-index: -1;
     }
-}
+} */
 
 .navbarList .navbarItem a:hover{
     color: #fff;

@@ -1,5 +1,5 @@
 .section{
-    /*background-color: red;*/
+    background-color: white;
 }
 
 .container{
@@ -25,6 +25,7 @@
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     background-color: #fff;
+    color: black;
 }
 
 .grid_card span {

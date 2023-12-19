@@ -1,6 +1,7 @@
 import React from 'react';
 import ContactCard from '../components/ContactCard';
 import styles from './contact.module.css'
+import ContactForm from '../components/ContactForm';
 
 const page = () => {
     return (

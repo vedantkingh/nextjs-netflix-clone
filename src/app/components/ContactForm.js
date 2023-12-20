@@ -24,8 +24,12 @@ const ContactForm = () => {
         setUser((prevUser) => ({...prevUser, [name] : value}))
     }
 
-    function handleSubmit(e){
-
+    const handleSubmit =  async () => {
+        try {
+            const response = await fetch ('/api/contact')
+        } catch (error) {
+            
+        }
     }
 
     return (

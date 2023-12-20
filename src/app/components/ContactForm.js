@@ -26,9 +26,18 @@ const ContactForm = () => {
 
     const handleSubmit =  async () => {
         try {
-            const response = await fetch ('/api/contact')
+            const response = await fetch ('/api/contact', {
+                method: 'POST',
+                headers: {"Content_Type": "application/json"},
+                body: JSON.stringify({
+                    username: user.username,
+                    email: user.email,
+                    phone: user.phone,
+                    message: user.message,
+                })
+            })
         } catch (error) {
-            
+            console.log(error)
         }
     }
 

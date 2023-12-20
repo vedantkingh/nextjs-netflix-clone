@@ -17,6 +17,7 @@ const ContactForm = () => {
         phone : "",
         message : ""
     }) 
+    const [status, setStatus] = useState(null);
 
     function handleChange(e){
         const name = e.target.name;
@@ -120,7 +121,7 @@ const ContactForm = () => {
                 {status === 'success' && <p className={styles.success_msg}>Thank you for your message!</p>}
                 {status === 'error' && <p className={styles.error_msg}>There was an error submitting your message. Please try again.</p>}
 
-                <button type="submit" className={mulish.className}>Send Message</button>
+                <button type="submit" className={common.fancyButton}>Send Message</button>
             </div>
         </form>
     );
